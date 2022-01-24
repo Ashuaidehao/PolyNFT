@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Neo;
+﻿using Neo;
 using Neo.SmartContract.Framework;
-using Neo.SmartContract.Framework.Services;
 
 namespace PolyNFT
 {

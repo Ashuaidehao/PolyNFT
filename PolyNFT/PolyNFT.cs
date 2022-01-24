@@ -1,7 +1,5 @@
 ﻿using Neo.SmartContract.Framework;
-using System;
 using System.ComponentModel;
-using System.Globalization;
 using System.Numerics;
 using Neo;
 using Neo.SmartContract.Framework.Attributes;
@@ -16,9 +14,9 @@ namespace PolyNFT
     [ContractPermission("*", "onNEP11Payment")]
     public partial class PolyNFT : Nep11Token<TokenState>
     {
-        [DisplayName("Transfer")]
-        public static event OnTransferDelegate OnTransfer;
-        public delegate void OnTransferDelegate(UInt160 from, UInt160 to, BigInteger amount, ByteString tokenId);
+        //[DisplayName("Transfer")]
+        //public static event OnTransferDelegate OnTransfer;
+        //public delegate void OnTransferDelegate(UInt160 from, UInt160 to, BigInteger amount, ByteString tokenId);
 
         /// <summary>
         /// params: message, extend data
